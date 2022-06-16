@@ -17,7 +17,7 @@ arrayDiff([1, 2, 2, 2, 3], [2]);
 
 //12.2.
 function arrayDiff(arr1, arr2) {
-   let result = arr1.filter((item) =>!arr2.includes(item));
-   console.log(result);
+   return arr1.filter((item) =>!arr2.includes(item));
+   
 }
-arrayDiff([1, 2, 2, 2, 3], [2]);
+console.log(arrayDiff([1, 2, 2, 2, 3], [2]));
